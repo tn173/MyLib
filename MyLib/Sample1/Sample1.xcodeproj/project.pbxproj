@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0866A423EAD75D0089B7FA /* Sampe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0866A323EAD75D0089B7FA /* Sampe1.swift */; };
 		3DBF103423EAC7C400466280 /* Sample1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBF102A23EAC7C400466280 /* Sample1.framework */; };
 		3DBF103B23EAC7C400466280 /* Sample1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DBF102D23EAC7C400466280 /* Sample1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -22,6 +23,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0866A323EAD75D0089B7FA /* Sampe1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sampe1.swift; sourceTree = "<group>"; };
 		3DBF102A23EAC7C400466280 /* Sample1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sample1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBF102D23EAC7C400466280 /* Sample1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample1.h; sourceTree = "<group>"; };
 		3DBF102E23EAC7C400466280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				3DBF102D23EAC7C400466280 /* Sample1.h */,
+				3D0866A323EAD75D0089B7FA /* Sampe1.swift */,
 				3DBF102E23EAC7C400466280 /* Info.plist */,
 			);
 			path = Sample1;
@@ -135,6 +138,7 @@
 				TargetAttributes = {
 					3DBF102923EAC7C400466280 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					3DBF103223EAC7C400466280 = {
@@ -183,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0866A423EAD75D0089B7FA /* Sampe1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +325,7 @@
 		3DBF103F23EAC7C400466280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -332,6 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aaa.Sample1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,6 +347,7 @@
 		3DBF104023EAC7C400466280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -360,6 +368,7 @@
 		3DBF104223EAC7C400466280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Sample1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -373,6 +382,7 @@
 		3DBF104323EAC7C400466280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Sample1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -8,13 +8,13 @@
 
 import Foundation
 
-public class MyLib:NSObject{
+public class Sample1:NSObject{
     public class func start(){
-        print("MyLib start..")
+        print("Sample1 start..")
     }
 
     public class func stop(){
-        print("MyLib stop..")
+        print("Sampe1 stop..")
     }
 
 }
