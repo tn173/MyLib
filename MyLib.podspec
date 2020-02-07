@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/tn173/MyLib.git", :tag => "#{s.version}" }
   s.platform     = :ios, '8.0'
   s.source_files = 'MyLib/SDK/**/*'
-  s.vendored_libraries = 'MyLib/SDK/libMyLib2.a'
+  s.vendored_libraries = 'MyLib/SDK/**/*.a'
   s.public_header_files= 'MyLib/SDK/**/*.h'
   s.static_framework = true
 end
