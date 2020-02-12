@@ -1,6 +1,6 @@
 //
-//  LibrarySample.h
-//  MySampleProject
+//  Log.h
+//  Framework
 //
 //  Created by Tomoaki Nishioka on 2020/02/12.
 //  Copyright © 2020 Tomoaki Nishioka. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LibrarySample : NSObject
+@interface Log : NSObject
 
 - (void)callMylib2;
 
