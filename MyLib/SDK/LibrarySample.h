@@ -1,6 +1,6 @@
 //
-//  MyLib2.h
-//  MyLib2
+//  LibrarySample.h
+//  MySampleProject
 //
 //  Created by Tomoaki Nishioka on 2020/02/12.
 //  Copyright © 2020 Tomoaki Nishioka. All rights reserved.
@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MyLib2 : NSObject
+NS_ASSUME_NONNULL_BEGIN
 
-- (void)outputLog;
+@interface LibrarySample : NSObject
+
+- (void)callMylib2;
 
 @end
+
+NS_ASSUME_NONNULL_END
